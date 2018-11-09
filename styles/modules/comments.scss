@@ -1,0 +1,13 @@
+/* =================================================================================
+Comments
+================================================================================= */
+
+.comment-form {
+	li { margin: 0 0 1em; }
+	textarea { min-height: 100px; width: 80%; }
+	input[type="text"] { margin: 0 1em 0 0; width: 60%; }
+	label { display: block; padding: 5px 0; }
+	.form-allowed-tags { clear: both; width: 80%; }
+	.form-allowed-tags code { display: block; }
+	.comment-form-comment label { display: none; }
+}

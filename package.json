@@ -1,0 +1,47 @@
+{
+    "name": "psa-theme",
+    "version": "0.1.0",
+    "description": "PSA Theme - based on TRY Theme",
+    "browserify": {
+        "transform": [
+            "browserify-shim"
+        ]
+    },
+    "browser": {
+        "jquery": "./node_modules/jquery/dist/jquery.js"
+    },
+    "browserify-shim": {
+        "jquery": "$"
+    },
+    "devDependencies": {
+        "browser-sync": "^2.18.13",
+        "browserify": "^14.5.0",
+        "browserify-shim": "^3.6.0",
+        "del": "^0.1.0",
+        "gulp": "^3.9.1",
+        "gulp-autoprefixer": "0.0.7",
+        "gulp-browserify": "^0.5.0",
+        "gulp-changed": "^3.1.0",
+        "gulp-clean-css": "^3.0.0",
+        "gulp-jshint": "^1.6.3",
+        "gulp-sass": "^3.1.0",
+        "gulp-plumber": "^1.0.0",
+        "gulp-rename": "^1.2.0",
+        "gulp-streamify": "0.0.5",
+        "gulp-uglify": "^0.3.1",
+        "gulp-util": "^3.0.8",
+        "jshint-stylish": "^0.2.0",
+        "vinyl-source-stream": "^1.1.0",
+        "watchify": "^3.9.0",
+        "webpack": "^2.0.0"
+    },
+    "dependencies": {
+        "bootstrap": "^3.3.4",
+        "browsernizr": "^1.0.2",
+        "consolelog": "^2.1.3",
+        "debounce": "^1.0.0",
+        "es5-shim": "^4.1.0",
+        "jquery": "^3.3.0",
+        "lodash.assign": "^4.2.0"
+    }
+}

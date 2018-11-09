@@ -1,0 +1,60 @@
+/* =================================================================================
+Variables
+================================================================================= */
+
+// Colors
+$gray-darker:           lighten(#000, 13.5%); // #222
+$gray-dark:             lighten(#000, 20%);   // #333
+$gray:                  lighten(#000, 33.5%); // #555
+$gray-light:            lighten(#000, 60%);   // #999
+$gray-lighter:          lighten(#000, 93.5%); // #eee
+
+$brand-primary:         #428bca;
+$brand-success:         #5cb85c;
+$brand-info:            #5bc0de;
+$brand-warning:         #f0ad4e;
+$brand-danger:          #d9534f;
+
+$color-facebook: #3B5998;
+$color-twitter: #33CCFF;
+$color-google: #000000;
+$color-linkedin: #4875B4;
+$color-email: #ec0501;
+
+// Typography
+$font-family-sans-serif:       "Open Sans", sans-serif;
+$font-family-sans-serif-alt:   "Roboto", sans-serif;
+$font-family-serif:            "Roboto Slab", serif;
+$font-family-icon:             "";
+$font-family-monospace:        Monaco, Consolas, "Courier New", monospace;
+$font-family-base:             $font-family-sans-serif;
+
+// Z-Index
+$zindex-1: 1010;
+$zindex-2: 1020;
+$zindex-3: 1030;
+$zindex-4: 1040;
+$zindex-5: 1050;
+$zindex-6: 1060;
+$zindex-7: 1070;
+$zindex-8: 1080;
+$zindex-9: 1090;
+
+$screen-sm-min: 575px;
+$screen-md-min: 767px;
+$screen-lg-min: 991px;
+$screen-xl-min: 1199px;
+
+$screen-xs-max: $screen-sm-min;
+$screen-sm-max: $screen-md-min;
+$screen-md-max: $screen-lg-min;
+$screen-lg-max: $screen-xl-min;
+
+$img-url: '/wp-content/themes/psa-master-theme/images/';
+
+
+  // xs: 480px,
+  // sm: 576px,
+  // md: 768px,
+  // lg: 992px,
+  // xl: 1200px

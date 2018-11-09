@@ -1,0 +1,40 @@
+/* =================================================================================
+App
+================================================================================= */
+
+/**
+ * Vendor
+ */
+
+@import "vendor/bootstrap/scss/bootstrap-grid.scss"; // Includes boostrap grid only 
+// @import "vendor/bootstrap/scss/bootstrap.scss"; // Includes all boostrap styles
+// @import "vendor/bootstrap/scss/variables.scss";
+// @import "vendor/bootstrap/scss/mixins.scss";
+// @import "vendor/bootstrap/scss/scaffolding.scss";
+// @import "vendor/bootstrap/scss/type.scss";
+// @import "vendor/bootstrap/scss/grid.scss";
+// @import "vendor/bootstrap/scss/tables.scss";
+// @import "vendor/bootstrap/scss/forms.scss";
+// @import "vendor/bootstrap/scss/buttons.scss";
+// @import "vendor/bootstrap/scss/utilities.scss";
+// @import "vendor/bootstrap/scss/responsive-utilities.scss";
+
+/**
+ * Theme dependencies
+ */
+@import "variables.scss";
+@import "mixins.scss";
+@import "normalize.scss";
+@import "fonts.scss";
+@import "global.scss";
+@import "utilities.scss";
+
+/**
+ * Theme modules
+ */
+@import "modules/footer.scss";
+@import "modules/header.scss";
+@import "modules/modules.scss";
+@import "modules/carousel.scss";
+@import "modules/menus.scss";
+@import "modules/search-form.scss";

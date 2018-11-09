@@ -1,0 +1,18 @@
+/* =================================================================================
+~ Utility Tools
+================================================================================= */
+
+.hidden       { display: block !important; border: 0 !important; margin: 0 !important; padding: 0 !important; font-size: 0 !important; line-height: 0 !important; width: 0 !important; height: 0 !important; overflow: hidden !important; }
+.hide		      { display: none; }
+.alignleft    { float: left; margin: 0 1em 1em 0; }
+.alignright   { float: right; margin: 0 0 1em 1em; }
+.aligncenter  { display: block; margin-left: auto; margin-right: auto; }
+.float-left   { float: left !important; }
+.float-right  { float: right !important; }
+.text-left 	  { text-align: left; }
+.text-right   { text-align: right; }
+.text-center  { text-align: center; }
+.highlight 	  { background: #fffaaa; }
+.required 	  { color: #cc0033; }
+.inline-list  { @include clearfix(); }
+.inline-list li { float: left; }
